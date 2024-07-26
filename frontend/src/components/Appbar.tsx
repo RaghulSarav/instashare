@@ -2,7 +2,7 @@ import { Avatar } from "./BlogCard"
 import { Link } from "react-router-dom"
 export const Appbar=()=>{
     return <div className="pt-2 border-b flex justify-between px-10">
-        <Link to={"/"}>
+        <Link to={"/posts"}>
         <div className="pt-1 flex-col flex justify-center font-semibold cursor-pointer">
             InstaShare
         </div>
